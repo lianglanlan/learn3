@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <div id="root">
         <p> {{name}} </p>
@@ -17,7 +19,18 @@
         //2.拿到数据
         //3.将数据与模板结合，得到的是html元素
         //4.放到页面中
+        //1.
         let tmpNode = document.querySelector('#root')
+        //2.
+        let data = {
+            name: '一个name',
+            message: '一个消息'
+        }
+        //3.
+        function compiler(template, data) {
+
+        }
     </script>
 </body>
+
 </html>
